@@ -46,7 +46,8 @@ Processing学习　　　　　　　　　—">
 因为在网上并没有找到《Learning Processing》这本书的中文版，所以突然想试着翻译一下来学习Processing，本人英语水平有限，欢迎提供指正。
 Processing学习　　　　　　　　　—">
 <meta property="og:image" content="http://7xo04p.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160127144737.png">
-<meta property="og:updated_time" content="2016-01-27T07:20:24.776Z">
+<meta property="og:image" content="http://7xo04p.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160128122209.png">
+<meta property="og:updated_time" content="2016-01-28T07:15:19.521Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Daniel Shiffman——《Learning Processing》个人翻译">
 <meta name="twitter:description" content="本书为Daniel Shiffman的《Learning Processing》的个人翻译。原书地址：http://pan.baidu.com/s/1gelQAg7       密码：naja
@@ -222,7 +223,24 @@ Processing学习　　　　　　　　　—">
 <h3 id="u672C_u4E66_u9002_u5408_u54EA_u4E9B_u4EBA_uFF1F"><a href="#u672C_u4E66_u9002_u5408_u54EA_u4E9B_u4EBA_uFF1F" class="headerlink" title="本书适合哪些人？"></a>本书适合哪些人？</h3><p>本书适合初学者。如果你在一生中从来没有写过一行代码，那么你来对了地方。不要怀疑，在本书的九个章节里，编程的基本原理将会被一步一步慢慢地建立起来。除了知道电脑的基本操作——开机，上网，启动程序这样的事情之外，你不需要任何背景知识。</p>
 <p>因为本书使用Processing软件，它对于在平面设计，绘画，雕塑，建筑，电影，视频，插图，网页设计等视觉领域方面学习或工作的人来说是非常好用的。如果你是这些方面的成员之一（哪怕包括只会使用计算机），你或许精通某个专门的软件包，可能还不知一个，比如：Photoshop,Illustrator,AutoCAD,Maya,AfterEffects等。本书的目的之一就是从现有工具的圈子中把你释放出来。除了使用别人的工具外你能做什么？能够设计什么？能够制作你自己的东西吗？如果你对这些问题感兴趣，那你就来对了地方。</p>
 <p>如果你有过编程的经验，但是对学习Processing感兴趣，这本书任然对你有用。本书的前部分章节将会帮助你快速复习，并且为后半部分的深入问题打下坚实的基础。</p>
-<h3 id="u4EC0_u4E48_u662FProcessing"><a href="#u4EC0_u4E48_u662FProcessing" class="headerlink" title="什么是Processing"></a>什么是Processing</h3><p>我们先来聊一聊CS101，也许我们可以用java来教学。这是课堂上第一示例程序的的输出展示：<br><img src="http://7xo04p.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160127144737.png" alt=""></p>
+<h3 id="u4EC0_u4E48_u662FProcessing"><a href="#u4EC0_u4E48_u662FProcessing" class="headerlink" title="什么是Processing"></a>什么是Processing</h3><p>我们先来聊一聊CS101，也许我们可以用java来教学。这是课堂上第一示例程序的的输出展示：<br><img src="http://7xo04p.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160127144737.png" alt=""><br>一般情况下，程序员通过命令行学习基础知识：</p>
+<ol>
+<li>TEXT IN→以文本形式写入代码</li>
+<li>TEXT OUT→在命令行中输出你写的代码</li>
+<li>TEXT INTERACTION→用户可以通过输入文本来与程序互动</li>
+</ol>
+<p>示例程序输出的”Hello World!”是一个老梗了，一个程序员的习惯就是学会在任何给定的语言写的第一个程序就是”Hello World!”。它最早出现在1974年贝尔实验室的Brian Kernighan写的”C语言编程：教程A”的。</p>
+<p>学习Processing的优点就是它强调了一个更加直观的视觉响应环境，它更有利于于艺术家和设计师学习编程。</p>
+<ol>
+<li>TEXT IN→以文本形式写入代码</li>
+<li>VISUALS OUT→你的代码在窗口中产生图像</li>
+<li>MOUSE INTERACTION→用户可以通过鼠标与这些图像进行互动。(你还会从本书中看到更多的功能！)。</li>
+</ol>
+<p>Processing的”Hello World”程序可能像这样：<br><img src="http://7xo04p.com1.z0.glb.clouddn.com/QQ%E6%88%AA%E5%9B%BE20160128122209.png" alt=""><br>Hello, Shapes!</p>
+<p>尽管它看起来挺友好的，但却不怎么引人注目，并且也不是”Hello World”程序。但关键是学习即时的图像反馈，这是很大区别。</p>
+<p>Processing不是第一个遵循这个例子的语言。1967年，Daniel G.Bobrow，Wally Feurzeig和Seymour Papert共同开发了LOGO编程语言。有了LOGO语言，程序员可以通过写写指令带控制屏幕上的乌龟，制作图形以及进行设计。John Maeda的Design By Numbers(1999)给视觉设计师和艺术家引进了一种简单的易于使用的语法规则。</p>
+<p>尽管这两种语言都是非常简洁并且具有创新性，但是它们的功能却受到了限制。</p>
+<p>Processing语言是LOGO和Design By Numbers的直接后代，它于2001年诞生于麻省理工学院媒体实验室的”美学与计算”研究课题组。是由Casey Reas和Benjamin Fry以及John Maeda为研究生学习所开发的一款开源软件。</p>
 </span>
       
     </div>
@@ -302,8 +320,8 @@ Processing学习　　　　　　　　　—">
 
       <section class="site-overview">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="/images/default_avatar.jpg" alt="Jayden Jau" itemprop="image"/>
-          <p class="site-author-name" itemprop="name">Jayden Jau</p>
+          <img class="site-author-image" src="/images/default_avatar.jpg" alt="O.氧气妖精韩小猪" itemprop="image"/>
+          <p class="site-author-name" itemprop="name">O.氧气妖精韩小猪</p>
         </div>
         <p class="site-description motion-element" itemprop="description"></p>
         <nav class="site-state motion-element">
@@ -373,7 +391,7 @@ Processing学习　　　　　　　　　—">
   <span class="with-love">
     <i class="icon-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Jayden Jau</span>
+  <span class="author" itemprop="copyrightHolder">O.氧气妖精韩小猪</span>
 </div>
 
 <div class="powered-by">
@@ -610,5 +628,14 @@ Processing学习　　　　　　　　　—">
         });
     });
 </script>
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function() {          
+          jQuery("img").lazyload({
+            placeholder:"http://www.arao.me/loading.gif",
+              effect:"fadeIn"
+            });
+          });
+  </script>
 </body>
 </html>
